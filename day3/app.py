@@ -16,7 +16,7 @@ def hi():
 # string:name에서 받은 인자를 넘겨준다.
 @app.route('/hi/<string:name>')
 def hiso(name):
-    return render_template('hiso.html', name1=name)
+    return render_template('hi2.html', namee=name)
 
 # /cube/<숫자>
 # 세제곱 결과를 보여주는 페이지!
@@ -31,7 +31,7 @@ def cube(num):
 def lunch(name):
     total_menu = ['일식', '중식', '한식', '양식']
     sel = random.choice(total_menu)
-    return render_template('lunch.html', namee=name, pick = sel)
+    return render_template('lunch.html', namee=name, pick=sel)
 
 
 # /lotto
