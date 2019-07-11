@@ -37,7 +37,7 @@ ssafy = {
 출력예시)
 4
 """
-print(len(ssafy['location'])
+print(len(ssafy['location']))
 
 """
 난이도** 2. python standard library에 'requests'가 있나요?
