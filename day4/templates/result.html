@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h3>{{ name }}({{ gender }})님은 전생에</h3>
+    <br>
+    <h2>{{ pick2 }}</h2>
+    <h3>입니다.</h3>
+    {% if pick2 == '호랑이' %}
+        <img src="/static/tiger.jpg" alt="">
+    {% elif pick2 == '토끼' %}
+        <img src="/static/rabbit.jpg" alt="">
+    {% elif pick2 == '이구아나' %}
+        <img src="/static/igo.jpg" alt="">
+    {% elif pick2 == '사람' %}
+        <img src="/static/man.jpg" alt="">
+    {% elif pick2 == '개미' %}
+        <img src="/static/bug.jpg" alt="">
+    {% elif pick2 == '꽃' %}
+        <img src="/static/flower.jpg" alt="">
+    {% elif pick2 == '사슴' %}
+        <img src="/static/dear.jpg" alt="">
+    {% elif pick2 == '기린' %}
+        <img src="/static/j.jpg" alt="">
+    {% elif pick2 == '코끼리' %}
+        <img src="/static/ele.jpg" alt="">
+    {% elif pick2 == '새' %}
+        <img src="/static/bird.jpg" alt="">
+    
+    {% endif %}
+
+
+</body>
+</html>
